@@ -5,6 +5,13 @@ body {
     flex-direction: column;
     align-items: center;
     background: #226666;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#header {
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .buttons {
@@ -43,4 +50,8 @@ button:hover {
     margin-bottom: 5%;
     width: 70vw;
     height: max-content;
+}
+
+canvas {
+    border-radius: 10%;
 }

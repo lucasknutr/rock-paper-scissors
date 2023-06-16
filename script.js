@@ -25,7 +25,7 @@ function getComputerChoice () {
 }
 
 function getPlayerChoice () {
-    let bruteAnswer = prompt("Rock, Paper or Scissors?");
+    let bruteAnswer = // ! IMPORTANT
     let postAnswer = bruteAnswer.toLowerCase();
     let answer = postAnswer[0].toUpperCase() + postAnswer.substring(1);
     return answer;
